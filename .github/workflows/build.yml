@@ -21,10 +21,10 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: Package
-          path: libs/build/libs
+          path: lib/build/libs
       - name: Release
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            libs/build/libs/*.jar
+            lib/build/libs/*.jar
