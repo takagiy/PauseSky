@@ -1,0 +1,5 @@
+main: dev.neqo.pausesky.PauseSky
+name: PauseSky
+version: ${version}
+author: Yuki Takagi
+description: Pause tarnsition of day/night and weater while no player is online
